@@ -9,6 +9,10 @@ body {
     margin: auto;
 }
 
+.container {
+    margin: auto;
+}
+
 header {
     background-image: url("../img/header.png");
     background-size: cover;
@@ -109,6 +113,10 @@ footer {
 
 @media (min-width: 768px) {
 
+    body {
+        width: 100vw;
+    }
+
     header div {
         max-width: 757px;
         margin: 0 auto 36px;
@@ -169,9 +177,8 @@ footer {
         }
     }
 
-    .main__section-4 img {
-        height: 508px;
-        width: 784px;
+    .main__section-4 div img {
+        width: 100%;
     }
 
 }
